@@ -18,7 +18,7 @@
 # before you run this script.
 
 $NewComputerName = "AADCONNECT01"          # <<< FILL IN if you want a different name
-$StaticIP        = "10.10.0.4"            # <<< FILL IN: a free IP in app010w001's subnet
+$StaticIP        = "10.10.1.5"            # <<< FILL IN: a free IP in app010w001's subnet
 $PrefixLength    = 24                      # <<< FILL IN: subnet prefix length (match app010w001 — /24 shown here)
 $DefaultGateway  = "10.10.1.1"             # <<< FILL IN: same default gateway as app010w001
 $DnsServerIP     = "10.10.1.4"            # <<< FILL IN: app010w001's own static IP (it IS the DNS server)
